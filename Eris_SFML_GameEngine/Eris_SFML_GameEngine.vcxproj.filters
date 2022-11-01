@@ -1,17 +1,118 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="config">
+      <UniqueIdentifier>{7B6CE4F6-670E-0FCD-50C9-22213C0A961D}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="src\Entities">
+      <UniqueIdentifier>{81A6B583-6D09-4528-168F-7DDE02D110AB}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\States">
+      <UniqueIdentifier>{5050442F-3C08-867C-A50F-5FD891E6206D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utility">
+      <UniqueIdentifier>{70464FB2-DCFB-C7A7-65F0-C17ED1A4BEAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\components">
+      <UniqueIdentifier>{423E2ECF-2E0C-22D5-17A0-92FB030DFE39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{C55F2ECF-B12C-89DA-DA45-7782C671BE68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\EGE.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entities\Character.h">
+      <Filter>src\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entities\Entity.h">
+      <Filter>src\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entities\Player.h">
+      <Filter>src\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\States\GameState.h">
+      <Filter>src\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\States\MainMenuState.h">
+      <Filter>src\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\States\State.h">
+      <Filter>src\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\States\StatesEnum.h">
+      <Filter>src\States</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utility\Button.h">
+      <Filter>src\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\GameEngine.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\WindowComponent.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ege_pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\PhysicsComponent.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Core.h" />
+    <ClInclude Include="src\macros.h" />
+    <ClInclude Include="src\components\AnimationComponent.h" />
+    <ClInclude Include="src\States\EditorState.h" />
+    <ClInclude Include="src\components\HitboxComponent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Entities\Character.cpp">
+      <Filter>src\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entities\Entity.cpp">
+      <Filter>src\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entities\Player.cpp">
+      <Filter>src\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\States\GameState.cpp">
+      <Filter>src\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\States\MainMenuState.cpp">
+      <Filter>src\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\States\State.cpp">
+      <Filter>src\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utility\Button.cpp">
+      <Filter>src\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\GameEngine.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ege_pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\PhysicsComponent.cpp">
+      <Filter>src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\AnimationComponent.cpp" />
+    <ClCompile Include="src\States\EditorState.cpp" />
+    <ClCompile Include="src\components\HitboxComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\keys.ini">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\window_settings.ini">
+      <Filter>config</Filter>
+    </None>
   </ItemGroup>
 </Project>

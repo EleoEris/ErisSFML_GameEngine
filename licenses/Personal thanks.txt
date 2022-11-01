@@ -1,0 +1,4 @@
+Big thanks to:
+https://www.sfml-dev.org/
+https://www.youtube.com/c/SurajSharmaFourKnob
+https://www.youtube.com/c/TheChernoProject

@@ -21,6 +21,12 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+bin/
+bin_int/
+Eris_SFML_GameEngine/assets/backgrounds/mainmenu_bg_.jpg
+Eris_SFML_GameEngine/assets/sprites/objects/mystic_woods_free_v0.2/
+"Eris_SFML_GameEngine/assets/sprites/objects/Pixel Art Top Down - Basic"
+Eris_SFML_GameEngine\logs
 
 # Visual Studio 2015 cache/options directory
 .vs/
