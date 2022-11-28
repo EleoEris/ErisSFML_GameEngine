@@ -132,7 +132,6 @@
     <ClInclude Include="include\Eris_Utility\Log.h" />
     <ClInclude Include="include\Eris_Utility\_Time.h" />
     <ClInclude Include="include\Eris_Utility\functions.h" />
-    <ClInclude Include="include\ChernoInstrumentor\Instrumentor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Log.cpp" />

@@ -52,6 +52,7 @@ project "Eris_SFML_GameEngine"
 	}
 
 	disablewarnings {
+		4099 --[[ missing PDB, I'm not compiling SFML so it's normal ]]
 	}
 
 	filter "system:windows"

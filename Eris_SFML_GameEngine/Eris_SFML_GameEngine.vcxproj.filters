@@ -36,6 +36,9 @@
     <ClInclude Include="src\Entities\Player.h">
       <Filter>src\Entities</Filter>
     </ClInclude>
+    <ClInclude Include="src\States\EditorState.h">
+      <Filter>src\States</Filter>
+    </ClInclude>
     <ClInclude Include="src\States\GameState.h">
       <Filter>src\States</Filter>
     </ClInclude>
@@ -51,6 +54,18 @@
     <ClInclude Include="src\Utility\Button.h">
       <Filter>src\Utility</Filter>
     </ClInclude>
+    <ClInclude Include="src\components\AnimationComponent.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\HitboxComponent.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\PhysicsComponent.h">
+      <Filter>src\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Core.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
     <ClInclude Include="src\core\GameEngine.h">
       <Filter>src\core</Filter>
     </ClInclude>
@@ -60,14 +75,9 @@
     <ClInclude Include="src\ege_pch.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\components\PhysicsComponent.h">
-      <Filter>src\components</Filter>
+    <ClInclude Include="src\macros.h">
+      <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\Core.h" />
-    <ClInclude Include="src\macros.h" />
-    <ClInclude Include="src\components\AnimationComponent.h" />
-    <ClInclude Include="src\States\EditorState.h" />
-    <ClInclude Include="src\components\HitboxComponent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Entities\Character.cpp">
@@ -78,6 +88,9 @@
     </ClCompile>
     <ClCompile Include="src\Entities\Player.cpp">
       <Filter>src\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\States\EditorState.cpp">
+      <Filter>src\States</Filter>
     </ClCompile>
     <ClCompile Include="src\States\GameState.cpp">
       <Filter>src\States</Filter>
@@ -91,6 +104,15 @@
     <ClCompile Include="src\Utility\Button.cpp">
       <Filter>src\Utility</Filter>
     </ClCompile>
+    <ClCompile Include="src\components\AnimationComponent.cpp">
+      <Filter>src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\HitboxComponent.cpp">
+      <Filter>src\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\PhysicsComponent.cpp">
+      <Filter>src\components</Filter>
+    </ClCompile>
     <ClCompile Include="src\core\GameEngine.cpp">
       <Filter>src\core</Filter>
     </ClCompile>
@@ -100,12 +122,6 @@
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\components\PhysicsComponent.cpp">
-      <Filter>src\components</Filter>
-    </ClCompile>
-    <ClCompile Include="src\components\AnimationComponent.cpp" />
-    <ClCompile Include="src\States\EditorState.cpp" />
-    <ClCompile Include="src\components\HitboxComponent.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="config\keys.ini">

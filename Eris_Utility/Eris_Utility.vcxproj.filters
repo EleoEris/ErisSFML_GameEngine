@@ -21,7 +21,6 @@
     <ClInclude Include="include\Eris_Utility\functions.h">
       <Filter>include\Eris_Utility</Filter>
     </ClInclude>
-    <ClInclude Include="include\ChernoInstrumentor\Instrumentor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Log.cpp">

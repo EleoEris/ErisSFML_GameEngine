@@ -11,7 +11,7 @@ Fixed Premake5.lua (files)
 
 
 [TODO]
-ErisUtility Log - Make logs variadic templates
+Fix the animation for north-east
 ErisUtility Log - Add if constexpr to if statements into template to create copies of the function that' won't need to check if statements on runtime.
 
 [KNOWN BUGS]

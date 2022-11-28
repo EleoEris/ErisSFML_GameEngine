@@ -80,6 +80,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>ege_pch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4099;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <PreprocessorDefinitions>SFML_STATIC;EGE_PLATFORM_WINDOWS;EGE_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>src;..\Eris_Utility\include;dependencies\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
@@ -99,6 +100,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>ege_pch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4099;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <PreprocessorDefinitions>SFML_STATIC;EGE_PLATFORM_WINDOWS;EGE_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>src;..\Eris_Utility\include;dependencies\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
@@ -122,6 +124,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>ege_pch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4099;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <PreprocessorDefinitions>SFML_STATIC;EGE_PLATFORM_WINDOWS;EGE_DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>src;..\Eris_Utility\include;dependencies\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
@@ -141,57 +144,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\components\AnimationComponent.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="src\components\HitboxComponent.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
-    <ClInclude Include="src\core\Core.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
     <ClInclude Include="src\EGE.h" />
     <ClInclude Include="src\Entities\Character.h" />
     <ClInclude Include="src\Entities\Entity.h" />
     <ClInclude Include="src\Entities\Player.h" />
-    <ClInclude Include="src\macros.h" />
-    <ClInclude Include="src\States\EditorState.h">
-      <SubType>
-      </SubType>
-    </ClInclude>
+    <ClInclude Include="src\States\EditorState.h" />
     <ClInclude Include="src\States\GameState.h" />
     <ClInclude Include="src\States\MainMenuState.h" />
     <ClInclude Include="src\States\State.h" />
     <ClInclude Include="src\States\StatesEnum.h" />
     <ClInclude Include="src\Utility\Button.h" />
+    <ClInclude Include="src\components\AnimationComponent.h" />
+    <ClInclude Include="src\components\HitboxComponent.h" />
     <ClInclude Include="src\components\PhysicsComponent.h" />
+    <ClInclude Include="src\core\Core.h" />
     <ClInclude Include="src\core\GameEngine.h" />
     <ClInclude Include="src\core\WindowComponent.h" />
     <ClInclude Include="src\ege_pch.h" />
+    <ClInclude Include="src\macros.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\components\AnimationComponent.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="src\components\HitboxComponent.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
     <ClCompile Include="src\Entities\Character.cpp" />
     <ClCompile Include="src\Entities\Entity.cpp" />
     <ClCompile Include="src\Entities\Player.cpp" />
-    <ClCompile Include="src\States\EditorState.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
+    <ClCompile Include="src\States\EditorState.cpp" />
     <ClCompile Include="src\States\GameState.cpp" />
     <ClCompile Include="src\States\MainMenuState.cpp" />
     <ClCompile Include="src\States\State.cpp" />
     <ClCompile Include="src\Utility\Button.cpp" />
+    <ClCompile Include="src\components\AnimationComponent.cpp" />
+    <ClCompile Include="src\components\HitboxComponent.cpp" />
     <ClCompile Include="src\components\PhysicsComponent.cpp" />
     <ClCompile Include="src\core\GameEngine.cpp" />
     <ClCompile Include="src\ege_pch.cpp">
