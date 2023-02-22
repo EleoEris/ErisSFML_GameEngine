@@ -18,13 +18,15 @@ I might return to this project when I'll decide to make a 2D videogame.
 
 
 \[0.0.3]
-- Fixed Premake5.lua (files)    
+- Fixed Premake5.lua (files)
+
 \[0.0.2]
 - Update loop is much better
 - GameState and Menu State are loading
 - Buttons are working
 - ErisUtility Log - updated to use iomanip functionality
-- ErisUtility Log - changed format and the format LOG_ERROR to LOG_ERR    
+- ErisUtility Log - changed format and the format LOG_ERROR to LOG_ERR
+
 \[0.0.1]
 - Implemented basic sfml structures
 
