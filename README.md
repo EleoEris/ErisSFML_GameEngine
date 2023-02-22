@@ -16,7 +16,7 @@ I might return to this project when I'll decide to make a 2D videogame.
 
 - Configuration:Release doesn't work even though Configuration:Dist does - Check macro EGE_RELEASE or dependencies' settings
 
-### \[CHANGELOGS]
+### \[CHANGELOG]
 #### \[0.0.3]
 - Fixed Premake5.lua (files)
 
