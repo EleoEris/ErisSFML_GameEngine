@@ -1,5 +1,5 @@
 # ErisSFML_GameEngine
-#### Project status: abandoned (I decided to learn Godot instead)
+#### Project status: abandoned (I decided to learn Unreal Engine instead)
 I might return to this project when I'll decide to make a 2D videogame.
 
 
